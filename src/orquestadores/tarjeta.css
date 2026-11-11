@@ -1,0 +1,60 @@
+body {
+  background-color: #f5efe5;
+}
+
+.aplicacion {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.navegacion {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.navegacion a {
+  color: inherit;
+  padding: 8px 12px;
+  text-decoration: none;
+}
+
+.navegacion a.active {
+  font-weight: bold;
+}
+
+.pagina-inicio,
+.pagina-formulario,
+.pagina-desintegracion {
+  text-align: center;
+}
+
+.tarjeta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 220px;              /* ancho fijo de la tarjeta: 220 píxeles */
+  padding: 16px;             /* espacio interno entre el borde de la tarjeta y su contenido */
+  border-radius: 12px;       /* esquinas redondeadas (más alto = más redondo) */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); /* sombra suave alrededor, le da profundidad */
+  text-align: center;        /* centra el texto (título, descripción) dentro de sí mismo */
+  font-family: sans-serif;   /* tipo de letra, sin serifas (más limpia/moderna) */
+}
+
+.tarjeta img {
+  width: 100%;                /* la imagen ocupa todo el ancho disponible de la tarjeta */
+  height: 150px;               /* alto fijo, para que todas las imágenes midan igual */
+  object-fit: cover;          /* recorta la imagen para que llene ese espacio sin deformarse */
+  border-radius: 8px;         /* esquinas redondeadas también en la imagen */
+}
+
+.catalogo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+

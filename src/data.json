@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "nombre": "Capuccino",
+    "img": "/img/Cappuccinoo.jpg",
+    "descripcion": "Bebida caliente",
+    "precio": 4500
+  },
+  {
+    "id": 2,
+    "nombre": "Latte",
+    "img": "/img/Latte_art.jpg",
+    "descripcion": "Café suave con mucha leche",
+    "precio": 4000
+  },
+  {
+    "id": 3,
+    "nombre": "Espresso",
+    "img": "/img/espresso.jpg",
+    "descripcion": "Café fuerte y concentrado",
+    "precio": 2500
+  },
+  {
+    "id": 4,
+    "nombre": "Mocha",
+    "img": "/img/mocha.jpg",
+    "descripcion": "Café con chocolate y crema batida",
+    "precio": 5000
+  },
+  {
+    "id": 5,
+    "nombre": "Americano",
+    "img": "/img/americano.jpg",
+    "descripcion": "Espresso diluido con agua caliente",
+    "precio": 5000
+  },
+  {
+    "id": 6,
+    "nombre": "Macchiato",
+    "img": "/img/macchiato.jpg",
+    "descripcion": "Espresso con una capa de espuma de leche",
+    "precio": 5000
+  }
+]
